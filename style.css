@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+footer{
+  background-color: orange;
+  text-align: center;
+  color: white;
+}
+
+header{
+  font-weight: 200;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 40px;
+}
+
+#titelWebsite {
+  color: orange;  
+  font-size: 100px;
+  font-family: monospace;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 400;
+}
+main {
+  font-weight: 200;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 40px;
+}
+body {
+    background-image: url(https://wallpapers.com/images/featured/simple-clean-8g9017acqfddycrl.jpg);
+  background-size: 105%;
+}
+
+.myButton {
+  box-shadow: -5px 10px 50px 9px #276873;
+  background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color:#599bb3;
+  border-radius:8px;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:28px;
+  font-weight:bold;
+  padding:13px 32px;
+  text-decoration:none;
+  text-shadow:1px 1px 50px #3d768a;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color:#408c99;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

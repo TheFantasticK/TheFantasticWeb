@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Projects</title>
+  <link href="../magie.css" rel="stylesheet" type="text/css" />
+  <style>
+    /* Add a style for the hover effect */
+    #pranks:hover {
+      color: red; /* Change the color on hover */
+      cursor: pointer; /* Change the cursor to a pointer on hover */
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <nav>
+        <a href="../index.html"> <img src="../images/back.png" alt="Ga terug" id="back" /> </a>
+      </nav>
+      <h1>My Projects</h1>
+    </header>
+    <main>
+      <a href="https://pranksexe.sidneybehiels.repl.co/" class="myButton" >My prank website: Pranks.exe</a>
+      <a href="https://sidwebcom.sidneybehiels.repl.co/" class="myButton" >My normal website: FantasticWeb.com</a>
+      <h1>Welcome on my Page!</h1>
+      <h2>Who am I?</h2>
+      <img src="../gary.png" alt="Ik ben Gary" id="Gary"/>
+      <p>My name is Sidney(Fantastic Studios) and I program funny cool websites, I learned it from <strong>
+        Codefever
+      </strong>! </p>
+      <p>Some languages I already learened:</p>
+      <ul>
+        <li>Scratch</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Gdevelop</li>
+      </ul>
+
+      <h2>What can you find on this page?</h2>
+      <p>Some projects/websites I made with <strong>HMTL, CSS en JavaScript</strong>!</p>
+      <h2>Log in by typing your (nick)name!!!</h2>
+      <input type="text">
+      <button id="loginButton">Login</button>
+      <h3 id="name" ></h3>
+    </main>
+    <footer>&copy; 2023</footer>
+  </div>
+  <script>
+    // Get the element with the id "pranks"
+    var pranksElement = document.getElementById('pranks');
+
+    // Add a mouseover event listener to change the text on hover
+    pranksElement.addEventListener('mouseover', function() {
+      pranksElement.textContent = '(;';
+    });
+
+    // Add a mouseout event listener to change the text back when not hovered
+    pranksElement.addEventListener('mouseout', function() {
+      pranksElement.textContent = 'my prank website: Pranks.exe';
+    });
+  </script>
+  <script src="../js/magie.js"></script>
+</body>
+
+</html>
